@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Matahari Kinanti Herwin's personal website"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/323a06d0cb.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Matahari Kinanti Herwin</title>
+  </head>
+  <body>
+    <div class="whole">
+      <div class="navi">
+        <div>Matahari K Herwin</div>
+        <nav>
+          <a href="#myBtnContainer">Work</a>
+          <a href="about.html">About</a>
+        </nav>
+      </div>
+
+      <div class="hero">
+        <h1>Designer. Developer. Dancer.</h1>
+        <hr />
+        <p class="hero-text">
+          I'm a senior studying computer science and design @
+          <a
+            class="hero-links"
+            href="https://engineering.nyu.edu"
+            target="_blank"
+          >
+            NYU
+          </a>
+          and currently designing @
+          <a
+            class="hero-links"
+            href="https://instagram.com/musikalpetualangansherina"
+            target="_blank"
+          >
+            Musikal Petualangan Sherina
+          </a>
+        </p>
+      </div>
+
+      <h3>Projects Reel</h3>
+
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')">All</button>
+        <button class="btn" onclick="filterSelection('uxui')">
+          UI/UX & Product Design
+        </button>
+        <button class="btn" onclick="filterSelection('coding')">Coding</button>
+        <button class="btn" onclick="filterSelection('graphic')">
+          Graphic Design
+        </button>
+        <button class="btn" onclick="filterSelection('passion')">
+          Passion Projects
+        </button>
+      </div>
+
+      <!-- Portfolio Gallery Grid -->
+      <div class="row">
+        <div class="column graphic">
+          <div class="content">
+            <img
+              src="https://via.placeholder.com/150x80"
+              alt="Mountains"
+              style="width: 100%"
+            />
+            <h4>
+              Musikal Petualangan Sherina
+              <span class="tag">(Graphic Design)</span>
+            </h4>
+            <p>2020 – Present</p>
+          </div>
+        </div>
+        <div class="column uxui">
+          <div class="content">
+            <img
+              src="https://via.placeholder.com/150x80"
+              alt="Lights"
+              style="width: 100%"
+            />
+            <h4>
+              Bunkie
+              <span class="tag">(UX & Product Design)</span>
+            </h4>
+            <p>2020</p>
+          </div>
+        </div>
+        <div class="column uxui">
+          <div class="content">
+            <img
+              src="https://via.placeholder.com/150x80"
+              alt="graphic"
+              style="width: 100%"
+            />
+            <h4>
+              Spotify vs Apple Music <span class="tag">(UX Case Study)</span>
+            </h4>
+            <p>2020</p>
+          </div>
+        </div>
+
+        <div class="column uxui">
+          <div class="content">
+            <img
+              src="https://via.placeholder.com/150x80"
+              alt="Car"
+              style="width: 100%"
+            />
+            <h4>NYU: Lend Me! <span class="tag">(Product Design)</span></h4>
+            <p>2020</p>
+          </div>
+        </div>
+        <div class="column coding">
+          <div class="content">
+            <img
+              src="https://via.placeholder.com/150x80"
+              alt="Car"
+              style="width: 100%"
+            />
+            <h4>
+              Cat Spotify <span class="tag">(Front-End Development)</span>
+            </h4>
+            <p>2020</p>
+          </div>
+        </div>
+        <div class="column uxui">
+          <div class="content">
+            <img
+              src="https://via.placeholder.com/150x80"
+              alt="Car"
+              style="width: 100%"
+            />
+            <h4>eHAC UI Redesign <span class="tag">(UI Design)</span></h4>
+            <p>2020</p>
+          </div>
+        </div>
+
+        <div class="column graphic">
+          <div class="content">
+            <img
+              src="https://via.placeholder.com/150x80"
+              alt="coding"
+              style="width: 100%"
+            />
+            <h4>
+              NYU Tandon Career Services
+              <span class="tag">(Graphic Design)</span>
+            </h4>
+            <p>2020 – Present</p>
+          </div>
+        </div>
+        <div class="column coding">
+          <div class="content">
+            <img
+              src="https://via.placeholder.com/150x80"
+              alt="coding"
+              style="width: 100%"
+            />
+            <h4>
+              Weather App <span class="tag">(Front-End Development)</span>
+            </h4>
+            <p>2020</p>
+          </div>
+        </div>
+        <div class="column coding">
+          <div class="content">
+            <img
+              src="https://via.placeholder.com/150x80"
+              alt="coding"
+              style="width: 100%"
+            />
+            <h4>Klasses <span class="tag">(Full-Stack Development)</span></h4>
+            <p>2020</p>
+          </div>
+        </div>
+        <div class="column coding uxui">
+          <div class="content">
+            <img
+              src="https://via.placeholder.com/150x80"
+              alt="coding"
+              style="width: 100%"
+            />
+            <h4>
+              SPOT
+              <span class="tag">(Product Design & Full-Stack Development)</span>
+            </h4>
+            <p>2020 – Present</p>
+          </div>
+        </div>
+        <!-- END GRID -->
+      </div>
+    </div>
+
+    <footer>
+      <h3>👋 Say hi and let's chat!</h3>
+      <p>
+        Shoot me an email at
+        <a href="mailto:matahari@nyu.edu" class="email">matahari@nyu.edu</a> or
+        find me at
+      </p>
+      <i class="fab fa-linkedin-in"></i>
+    </footer>
+
+    <script>
+      filterSelection("all"); // Execute the function and show all columns
+      function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("column");
+        if (c == "all") c = "";
+        // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+        for (i = 0; i < x.length; i++) {
+          w3RemoveClass(x[i], "show");
+          if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+        }
+      }
+
+      // Show filtered elements
+      function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          if (arr1.indexOf(arr2[i]) == -1) {
+            element.className += " " + arr2[i];
+          }
+        }
+      }
+
+      // Hide elements that are not selected
+      function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          while (arr1.indexOf(arr2[i]) > -1) {
+            arr1.splice(arr1.indexOf(arr2[i]), 1);
+          }
+        }
+        element.className = arr1.join(" ");
+      }
+
+      // Add active class to the current button (highlight it)
+      var btnContainer = document.getElementById("myBtnContainer");
+      var btns = btnContainer.getElementsByClassName("btn");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function () {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+        });
+      }
+    </script>
+  </body>
+</html>
